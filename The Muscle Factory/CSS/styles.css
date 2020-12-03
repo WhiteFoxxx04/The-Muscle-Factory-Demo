@@ -1,5 +1,4 @@
 /* Universal Reset */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -84,7 +83,7 @@ header p {
 
 .call-to-action p {
   align-self: center;
-  background-color: #44C184;
+  background-color: #e62d2d;
   border-radius: 2px;
   margin-left: 20px;
   padding: 5px 10px;
@@ -126,8 +125,12 @@ header p {
   padding: 40px 0 20px;
 }
 
-.section-2-title, .section-2-content {
+.section-2-content {
   color: #fff;
+}
+
+.section-2-title{
+  color: #e62d2d;
 }
 
 .section-2-content {
@@ -158,12 +161,12 @@ header p {
 }
 
 .pricing-title:hover {
-  background-color: #44C184;
+  background-color: #e62d2d;
   transition: background-color .5s;
 }
 
 .pricing-title-big {
-  background-color: #44C184;
+  background-color: #e62d2d;
   font-size: 1.4rem;
 }
 
@@ -174,19 +177,19 @@ header p {
 }
 
 .sign-up-container {
-  color: #44C184;
+  color: #e62d2d;
   padding: 20px;
 }
 
 .sign-up {
-  border: 1px solid #44C184;
+  border: 1px solid #e62d2d;
   border-radius: 5px;
   padding: 10px 100px;
   transition: background-color .5s, color .5s;
 }
 
 .sign-up:hover {
-  background-color: #44C184;
+  background-color: #e62d2d;
   color: #fff;
   transition: background-color .5s, color .5s;
 }
@@ -207,12 +210,16 @@ header p {
   padding-top: 30px;
 }
 
+.section-3-title{
+    color: #e62d2d;
+}
+
 .section-3 .item-2 {
   margin-left: -10px;
 }
 
 .contact-button {
-  border: 1px solid #44C184;
+  border: 1px solid #e62d2d;
   margin-left: 10px;
   padding: 10px;
   transition: background-color .5s, color .5s;
@@ -220,7 +227,7 @@ header p {
 }
 
 .contact-button:hover {
-  background-color: #44C184;
+  background-color: #e62d2d;
   color: #fff;
   transition: background-color .5s, color .5s;
 }
@@ -246,7 +253,7 @@ header p {
 }
 
 .social-icon:hover {
-  color: #44C184;
+  color: #e62d2d;
   transition: color .5s;
 }
 
@@ -259,7 +266,7 @@ header p {
 }
 
 .hello {
-  color: #44C184;
+  color: #e62d2d;
   font-size: 1.4em;
   font-weight: 600;
 }
@@ -300,7 +307,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
 }
 
 .number {
-  background-color: #44C184;
+  background-color: #e62d2d;
   border-radius: 50%;
   color: #fff;
   margin: 20px 10px 0 0;
@@ -319,7 +326,7 @@ input[type="radio"], input[type="checkbox"] {
 button {
   background-color: #fff;
   border: 1px solid #44C184;
-  color: #44C184;
+  color: #e62d2d;
   cursor: pointer;
   margin-top: 40px;
   padding: 15px;
@@ -403,12 +410,17 @@ button {
 
 /* Other CSS */
 
-.title-color, .fas {
+.title-color {
   color: #44C184;
+}
+
+.about-title-color{
+    color: #e62d2d;
 }
 
 .fas {
   margin-top: 40px;
+  color: #e62d2d;
 }
 
 .back-to-top {
