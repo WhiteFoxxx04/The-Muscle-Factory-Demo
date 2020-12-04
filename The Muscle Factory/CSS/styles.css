@@ -370,7 +370,7 @@ button {
 /* Trainer Page CSS */
 
 .trainer-container {
-  background: #fff url("../images/training-background.jpg") no-repeat center;
+  background: #fff url("../images/trainer-background.jpg") no-repeat center;
   background-size: cover;
   padding: 5%;
 }
@@ -399,11 +399,11 @@ button {
 }
 
 .trainer-profile img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .trainer-profile-content {
-  background-color: #fff;
+  background-color: transparent;
   padding: 5%;
   text-align: center;
 }
